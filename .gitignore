@@ -1,0 +1,10 @@
+# Compiled binaries
+admissions
+patient_simulator
+*.o
+
+# Logs
+logs/*.txt
+
+# OS generated files
+.DS_Store
