@@ -21,7 +21,7 @@ echo "------------------------------------------------"
 
 # 1. Send SIGTERM to the admissions process (Requirement 4.1.2)
 echo "[*] Terminating Admissions Manager..."
-pkill -SIGTERM admissions
+pkill -9 admissions
 
 # 2. Clean up Shared Memory and Named Semaphores
 # Requirement: use ipcrm and sem_unlink (via shell or C)

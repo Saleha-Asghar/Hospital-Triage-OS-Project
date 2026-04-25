@@ -65,3 +65,11 @@ echo "Record: $PATIENT_RECORD"
 
 # In the final system, you will uncomment the line below to send data to the C program:
 # echo "$PATIENT_RECORD" > /tmp/admissions_pipe
+# Format the data into a single string
+PATIENT_DATA="$NAME,$AGE,$SEVERITY,$PRIORITY"
+
+# Send it to the Named Pipe
+# Note: Ensure the path points to the FIFO in your project root
+echo "$PATIENT_DATA" > hospital_fifo
+
+echo "Triage Complete: Data for $NAME sent to Admissions Manager."
