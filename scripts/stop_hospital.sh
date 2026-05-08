@@ -43,3 +43,5 @@ echo "  SHUTDOWN COMPLETE"
 echo "  - All beds freed."
 echo "  - IPC resources detached and removed."
 echo "------------------------------------------------"
+echo "[*] Generating Final Performance Report..."
+./performance_report.sh

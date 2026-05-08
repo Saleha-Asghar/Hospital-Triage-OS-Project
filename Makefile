@@ -1,8 +1,8 @@
 # ==============================================================================
 # Project : Hospital Patient Triage & Bed Allocator
-# Group   : [Your Group Number]
-# Members : Saleha Asghar (24F-0615) & [Teammate Name]
-# Purpose : Build system for CL2006 OS Semester Project
+# Group   : DWORD WINAPI
+# Members : Saleha Asghar (24F-0615) & Zainab Saeed(24F-0524)
+# Purpose : Build system for OS Semester Project
 # ==============================================================================
 
 # Compiler and Flags
