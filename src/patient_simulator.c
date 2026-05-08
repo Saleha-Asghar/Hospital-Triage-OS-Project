@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 
     printf("Patient Simulator [PID %d]: Treatment started for %s\n", getpid(), argv[1]);
 
-    // To make it interesting, let's pick a random treatment time between 5-15 seconds
+    // random time between 5 and 15
     srand(time(NULL) ^ getpid()); 
     int treatment_time = (rand() % 11) + 5; 
 
